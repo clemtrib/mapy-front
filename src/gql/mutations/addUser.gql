@@ -1,0 +1,11 @@
+mutation addUser($firstname: String!, $lastname: String!, $email: String!) {
+  addUser(email: $email, firstname: $firstname, lastname: $lastname) {
+    firstname
+  }
+}
+
+# {
+#   "firstname": "julien",
+#   "lastname": "dupond",
+#   "email": "juliend@leeroy.ca"
+# }

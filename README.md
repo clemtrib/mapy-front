@@ -1,4 +1,4 @@
-# mapy
+# mapy-front
 
 ## Project setup
 ```
