@@ -1,0 +1,15 @@
+mutation addCategory($name: String!, $desc: String!, $color: String!) {
+  addCategory(name: $name, desc: $desc, color: $color) {
+    id
+    name
+    desc
+    slug
+    color
+  }
+}
+
+# {
+#   "name": "Nature et paysages",
+#   "desc": "",
+#   "color": "green"
+# }

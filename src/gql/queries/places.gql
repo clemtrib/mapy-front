@@ -1,0 +1,9 @@
+{
+  places {
+    name
+    desc
+    lat
+    lon
+    planified
+  }
+}

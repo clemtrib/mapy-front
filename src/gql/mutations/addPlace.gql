@@ -1,0 +1,25 @@
+mutation addPlace($name: String!, $desc: String!, $lat: String!, $lon: String!, $planified: Boolean!, $user: ID!) {
+  addPlace(name: $name, desc: $desc, lat: $lat, lon: $lon, planified: $planified, user: $user) {
+    id
+    name
+    desc
+    lat
+    lon
+    planified
+    user {
+      id
+      firstname
+      lastname
+      email
+    }
+  }
+}
+
+# {
+#   "name": "Bryce Canyon National Park",
+#   "desc": "",
+#   "lat": "37.593048",
+#   "lon": "-112.187332",
+#   "planified": false,
+#   "user": "624f252d79d2f07c94f5b9a0"
+# }
